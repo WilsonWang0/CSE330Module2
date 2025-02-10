@@ -6,20 +6,3 @@ Link to test file: http://ec2-3-142-35-47.us-east-2.compute.amazonaws.com/~Wilso
 
 
 Link to my calculator: http://ec2-3-142-35-47.us-east-2.compute.amazonaws.com/~WilsonWang/calculator.html
-
-
-
-
-<br><br><br><br><br><br><br><br><br>
-Rubric
-
-| Possible | Requirement                                                          |
-| -------- | -------------------------------------------------------------------- |
-| 20      | git tutorial                                                                                   | 
-| 15      | Screenshot showing the student can SSH into their instance using a custom username and SSH key | 
-| 5     |  Custom user can perform sudo commands                                                          |   
-| 5      | Time zone is US central                                                                        |  
-| 5      | UserDir is working                                                                             |  
-| 8      | Calculator functions                                                                           |  
-| 4      | Radio buttons                                                                                  |  
-| 3      | Passes W3C validator                                                                           |  
