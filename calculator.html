@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <h2>Calculator</h2>
+    <form action="process_calc.php" method="GET">
+        <label><b>First Number:</b></label>
+        <input type="number" step="any" name="num1" required><br><br>
+
+        <label><b>Second Number:</b></label>
+        <input type="number" step="any" name="num2" required><br><br>
+
+        <b>Choose Operation:</b> <br>
+        <input type="radio" name="operation" value="add" checked> + 
+        <input type="radio" name="operation" value="subtract"> - 
+        <input type="radio" name="operation" value="multiply"> × 
+        <input type="radio" name="operation" value="divide"> ÷ 
+        <br><br>
+
+        <input type="submit" value="Calculate">
+        <input type="reset" value="Clear">
+    </form>
+</body>
+</html>
